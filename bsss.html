@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luckystores</title>
+</head>
+<h2>Fill in the required details</h2>
+<body>
+    <form>
+        <label for="username">enter username:<label>
+        <input type="text" id="username" placeholder="username" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email" placeholder="email" required>
+        <br><br>
+        <label for="password">enter password</label>
+        <input type="password" id="password" placeholder="password" required>
+        <p>Select your age</p>
+
+        <input type="radio" name="age" value="0-15" id="option-1">
+        <label for="option 1">0-15</label>
+        <input type="radio" name="age" value="16-30" id="option-1">
+        <label for="option 1">16-30</label>
+        <input type="radio" name="age" value="30-60" id="option-1">
+        <label for="option 1">30-60</label>
+        <input type="radio" name="age" value="0-30" id="option-1">
+        <label for="option 1">60-90</label>
+        <br><br>
+        
+        <label for="question"> security question:</label>
+        <select name="question" id="question">
+            <option value="q1">favorite meal?</option>
+            <option value="q2">favorite sport</option>
+            <option value="q3">favorite sex style</option>
+        </select>
+        <br><br>
+        <label for="answer">security answer:</label>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+        <label for="bio">Comment:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="comments"></textarea> 
+        <br><br>
+        <input type="submit" value="enter">
+    </form>
+    
+</body>
+</html>
